@@ -1,0 +1,12 @@
+data_ingestion:
+  file_names:
+    train_set: "train.csv"
+    test_set: "test.csv"
+    raw_set: "data.csv"
+  upload_from_gcp:
+    json_file_path: "C:\\Users\\User\\Desktop\\DQM\\Data_Quality\\credentials-python-storage.json"
+    bucket_name: "tmrw_scraping_data"
+    file_path_name: "pdp/ajio/2023/01/14/PDP_Ajio_2023_01_13_PDP_Batch 8_500_Products20230113.csv"
+    cloud_name: "gcp"
+  upload_from_local:
+    dataset_path: 'notebook\data\stud.csv'
